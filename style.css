@@ -1,0 +1,95 @@
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro")
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+>>>>>>> fbc4bfb21588d93196a18e186500c4b2c6abb12a
+
+html {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+<<<<<<< HEAD
+    font-family: Crimson Pro;
+    background-color: whitesmoke;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Crimson Pro;
+    letter-spacing: 0.3rem;
+    color: darkslategrey;
+}
+
+#loader  {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255,255, 255, 0.3)
+
+}
+
+.image-container {
+ margin: 10px 30%;
+}
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 600px)
+{
+    h1{ font-size: 20px;
+    letter-spacing: 0;}
+    .image-container{margin: 10px 10px}
+      
+}
+=======
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.button-container {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #575757;
+    box-shadow: inset 0 20px 4px -19px rgba(190, 190, 190, 0.8)
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    width: 120px;
+    height: 75px;
+    font-family: Roboto Mono, sans-serif;
+    font-size: 30px;
+    color: rgb(224, 224, 224);
+    text-shadow: 0 2px 5px black;
+    background: linear-gradient(to top, #bebebe,#bebebea4);
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(O,O,0,0.3);
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #bebebe,#bebebea4);
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 6px 6px 0 rgba(O,O,0,0.3);
+}
+
+}
+>>>>>>> fbc4bfb21588d93196a18e186500c4b2c6abb12a
